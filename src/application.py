@@ -80,11 +80,6 @@ def send_ack_packet(socket, address, seq, ack):
     time_string = datetime.now().strftime("%H:%M:%S.%f")
     print(time_string+" -- sending ACK for the received packet with seq number = "+str(seq))  
 
-#These two functions are mostly borrowed from my oblig 1 assignment. Since this is anonymous, I have written my candidate number as author
-#Title: args.py
-#Author: Candidate number: 323
-#Date: February 2024
-#--
 #Function to check if the ip is a valid ip
 def check_ip(ip):
     #Uses exception handling because ipaddress.ip_address(ip) raises a ValueError if the target isn't a valid ip
@@ -104,8 +99,6 @@ def check_port(port):
         sys.exit()
     #Returns true to acknowledge that it is a valid port
     return True
-#--
-#End of borrowed code
 
 #Function that serves as the server, receives packets over DRTP/UDP and writes the data content to a new file
 #Parameters are the argparse arguments ip for ip address, port for port address and discard for discarding a packet with the selected sequence number
