@@ -21,9 +21,6 @@ header_format = '!HHH'
 #Variable for the remaining 994 bytes
 packet_data_size = 994
 
-#Header variables, starts the seq number at 0 for the header-only packets
-flags = 0
-
 #Defining packet flags as variables
 syn_flag = 0b1000
 ack_flag = 0b0100
