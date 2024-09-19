@@ -1,3 +1,5 @@
+EDIT: Keep in mind that the code is excessively over-commented due to the task's requirements. I find the code harder to read because of it, and will remove quite a few of them at a later date.
+
 This program copies a file from a designated file path to the program's local folder.
 
 To run the program application.py, you would need to unzip the src folder wherever you like.
